@@ -1,0 +1,52 @@
+/* MOBILE */
+.sideBar{
+    background-color: #363740;
+    min-width: 75px;
+    width: 75px;
+}
+
+.logo img{
+    width: 32px;
+}
+
+.nav-link{
+    padding: 15px 0;
+    color: #60626E;
+    border-left: 3px solid #363740;
+}
+
+.nav-link span{
+    display: none;
+}
+
+.nav-link:hover, .nav-link.active{          
+    border-left: 3px solid #DDE2FF;
+    color: #DDE2FF !important;
+    background-color: #3E4049;
+}
+
+.profileImg{
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+
+}
+.customBox:hover{
+   color: #3751FF; 
+   border-color: #3751FF !important; 
+}
+/* DESKTOP */
+@media only screen and (min-width: 650px){
+    .nav-link span{
+        display: unset;
+    }   
+    .sideBar{
+        min-width: 255px;
+        width: 255px;
+    }
+
+    .nav-link{
+        padding: 15px 10px;
+    }
+}

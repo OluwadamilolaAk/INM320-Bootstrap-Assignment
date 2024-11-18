@@ -1,0 +1,77 @@
+/* Declared Variables */
+$greyone: #363740;
+$widthone: 75px;
+$minwidthone: 75px;
+$widthtwo: 32px;
+$spaceone: 15px 0;
+$spacetwo: 15px 10px;
+$greytwo: #60626E;
+$linesize: 3px solid;
+$unseen: none;
+$greythree: #DDE2FF;
+$greyfour: #3E4049;
+$widththree: 55px;
+$profiledimension: 55px;
+$notset: unset;
+$bardimension: 255px;
+$curves: 50%;
+$whole: cover;
+$hovercolour: #3751FF;
+
+
+/* MOBILE */
+.sideBar{
+    background-color: $greyone;
+    min-width: $minwidthone;
+    width: $widthone;
+}
+
+.logo{
+    img{
+        width: $widthtwo;
+    }
+}
+
+.nav-link{
+    padding: $spaceone;
+    color: $greytwo;
+    border-left: $linesize $greyone;
+}
+
+.nav-link span{
+    display: $unseen;
+}
+
+.nav-link:hover, .nav-link.active{
+    border-left: $linesize $greythree;
+    color:$greythree !important;
+    background-color: $greyfour;
+}
+
+.profileImg{
+    border-radius: $curves;
+    height: $profiledimension;
+    width:$profiledimension;
+    object-fit: $whole;
+
+}
+
+.customBox:hover{
+    color:$hovercolour; 
+    border-color: $hovercolour !important; 
+ }
+
+/* DESKTOP */
+@media only screen and (min-width: 650px){
+    .nav-link span{
+        display: $notset;
+    }   
+    .sideBar{
+        min-width: $bardimension;
+        width: $bardimension;
+    }
+
+    .nav-link{
+        padding: $spacetwo;
+    }
+}
