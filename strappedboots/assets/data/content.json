@@ -1,0 +1,69 @@
+{
+    "sideBar":[
+        {
+            "name": "Overview",
+            "icon": "bi-pie-chart-fill"
+        },
+        {
+            "name": "Tickets",
+            "icon": "bi-ticket-detailed-fill"
+        },
+        {
+            "name": "Ideas",
+            "icon": "bi-lightbulb-fill"
+        },
+        {
+            "name": "Contacts",
+            "icon": "bi-people-fill"
+        },
+         {
+            "name": "Agents",
+            "icon": "bi-person-badge-fill"
+        },
+        {
+            "name": "Articles",
+            "icon": "bi-bookmark-dash-fill"
+        },
+        {
+            "name": "Settings",
+            "icon": "bi-gear-fill"
+        },
+        {
+            "name": "Subscriptions",
+            "icon": "bi-award-fill"
+        }
+    ],
+    "tickets": [
+        {
+            "count": 4009,
+            "category": "Waiting on Feature Request"
+        },
+        {
+            "count": 235,
+            "category": "Awaiting Customer Response"
+        },
+        {
+            "count":3245,
+            "category": "Awaiting Developer Fix"
+        },
+        {
+            "count": 100,
+            "category": "Pending"
+        }
+    ],
+    "tasks":[
+        {
+            "title": "Finish ticket update",
+            "status": "Urgent"
+        },
+        {
+            "title": "Create new ticket example",
+            "status": "New"
+        },
+        {
+            "title": "Update ticket report",
+            "status": "Default"
+        }
+    ]
+}
+
